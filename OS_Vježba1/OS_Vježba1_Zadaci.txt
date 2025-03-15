@@ -1,0 +1,148 @@
+Zadatak 1.
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe (main)
+$ cd OS_Vježba1
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ ls
+OS_Vježba1_Zadaci
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ mkdir vjezba1
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ cd vjezba1
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba1 (main)
+$ touch README.md
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba1 (main)
+$ cd ..
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$
+
+Zadatak 2.
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ pwd
+/c/Users/user/OS-Vjezbe/OS_Vježba1
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ mkdir vjezba2
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ cd vjezba2
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba2 (main)
+$ touch file.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba2 (main)
+$ cp file.txt file_copy.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba2 (main)
+$ ls
+file.txt  file_copy.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba2 (main)
+$ rm file.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba2 (main)
+$ ls
+file_copy.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba2 (main)
+$ cd ..
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ rmdir vjezba2
+rmdir: failed to remove 'vjezba2': Directory not empty
+
+Nemože se obrisati jer direktorij ima datoteku u sebi.
+
+Zadatak 3.
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ pwd
+/c/Users/user/OS-Vjezbe/OS_Vježba1
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ mkdir vjezba3
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ cd vjezba3
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ mkdir backup
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ touch notes.txt todo.txt script.sh
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ ls
+backup/  notes.txt  script.sh  todo.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ cp notes.txt script.sh todo.txt backup/
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ ls
+backup/  notes.txt  script.sh  todo.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ cd backup
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3/backup (main)    
+$ ls
+notes.txt  script.sh  todo.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3/backup (main)    
+$ cd ..
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ rm script.sh && ls
+backup/  notes.txt  todo.txt
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3 (main)
+$ cd backup
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3/backup (main)    
+$ mkdir USER
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3/backup (main)    
+$ mv notes.txt script.sh todo.txt USER/
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba3/backup (main)    
+$
+
+Zadatak 4.
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ pwd
+/c/Users/user/OS-Vjezbe/OS_Vježba1
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ mkdir vjezba4
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1 (main)
+$ cd vjezba4
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4 (main)
+$ mkdir subfolder
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4 (main)
+$ touch HOSTNAME
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4 (main)
+$ mv HOSTNAME USER
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4 (main)
+$ ls
+subfolder/  USER
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4 (main)
+$ mv USER subfolder/
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4 (main)
+$ pwd
+/c/Users/user/OS-Vjezbe/OS_Vježba1/vjezba4
+
+user@DESKTOP-<broj_desktopa> MINGW64 ~/OS-Vjezbe/OS_Vježba1/vjezba4/subfolder (main) 
+$ rm /c/Users/user/OS-Vjezbe/OS_Vježba1/vjezba4/subfolder/USER
+
